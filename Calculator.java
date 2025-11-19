@@ -1,18 +1,18 @@
 public class Calculator {
-
-    int sum(int a, int b){
+    public int sum(int a, int b){
         return a+b;
     }
-    int minus(int a, int b){
+    public int minus(int a, int b){
         return a-b;
     }
-    int multiple(int a, int b){
+    public int multiply(int a, int b){
         return a*b;
     }
-    int mod(int a, int b){
+    public int divide(int a, int b){
         return a/b;
     }
     public static void main(String[] args){
-
+        Calculator calculator = new Calculator();
+        System.out.println(calculator.sum(2,3));
     }
 }
